@@ -1,15 +1,15 @@
-$negro:#000;
-$sm:16px;
-$md:25px;
-$lg:35px;
 
+/*Impor*/
+@import 'variables';
+@import 'mixins';
 
 nav{
     height: $lg;
     width: 100%;
+    background-color: $negro;
 
     a{
-        color: $negro;
+        color: $blanco;
         font-size: $sm;
     }
 }

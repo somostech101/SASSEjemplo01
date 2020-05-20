@@ -1,0 +1,18 @@
+
+@mixin button{
+    height: 50px;
+    width: 100px;   
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.button-aceptar{
+    @include button();
+    background-color: green; 
+}
+
+.button-cancelar{
+    @include button();
+   background-color: red; 
+}
+
