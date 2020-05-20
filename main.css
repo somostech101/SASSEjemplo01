@@ -1,9 +1,10 @@
 nav {
-  height: 100px;
+  height: 35px;
   width: 100%;
 }
 nav a {
   color: #000;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */

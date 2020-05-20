@@ -1,8 +1,16 @@
+$negro:#000;
+$sm:16px;
+$md:25px;
+$lg:35px;
+
+
 nav{
-    height: 100px;
+    height: $lg;
     width: 100%;
 
     a{
-        color: #000;
+        color: $negro;
+        font-size: $sm;
     }
 }
+
